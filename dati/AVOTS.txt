@@ -1,0 +1,7 @@
+Datu kopa: Palmer Penguins
+Avota fails: https://raw.githubusercontent.com/allisonhorst/palmerpenguins/main/inst/extdata/penguins.csv
+Projekta lapa: https://github.com/allisonhorst/palmerpenguins
+Lejupielādes / faila iegūšanas datums: 09.11.2026
+Licence: CC0 (dati publiski izmantojami)
+
+Datus sākotnēji apkopoja Kristen Gorman un Palmer Station LTER pētnieki https://doi.org/10.5281/zenodo.3960218
