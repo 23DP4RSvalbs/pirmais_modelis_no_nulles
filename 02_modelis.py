@@ -21,6 +21,12 @@ modelis.fit(x_tr, y_tr)
 prognozes = modelis.predict(x_te)
 precizitate = accuracy_score(y_te, prognozes)
 
+# salidzinajumam vienmer mineju  biezako sugu no trenina datiem
+biezaka = y_tr.value_counts().idxmax()
+bazes_prognozes = [biezaka] * len(y_te)
+bazes_precizitate = accuracy_score(y_te, bazes_prognozes)
+
 print("Pingvinu sugu modelis")
 print(f"apmācībai: {len(x_tr)} testam: {len(x_te)}")
 print(f"modelis: {precizitate:.2%} ({sum(prognozes == y_te)}/{len(y_te)})")
+print(f"vienmer {biezaka}: {bazes_precizitate:.2%} ({sum(y_te == biezaka)}/{len(y_te)})")
