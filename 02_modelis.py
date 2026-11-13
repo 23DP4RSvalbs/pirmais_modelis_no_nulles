@@ -35,3 +35,14 @@ svarigums = sorted(zip(merijumi, modelis.feature_importances_), key=lambda a: a[
 print("Svarigākie merijumi:")
 for kolonna, vertiba in svarigums[:2]:
     print(f"{kolonna}: {vertiba:.1%}")
+
+# viena konkreta kluda no testa
+kludas = [i for i, p in enumerate(prognozes) if p != y_te.iloc[i]]
+if kludas:
+    i = kludas[0]
+    rindas_nr = int(dati.loc[y_te.index[i], "avota_rinda"])
+    print(f"Kluda originala CSV {rindas_nr}. rinda: {y_te.iloc[i]} uz {prognozes[i]}")
+    for kolonna in merijumi:
+        print(f"{kolonna}: {x_te.iloc[i][kolonna]:g}")
+else:
+    print("šoreiz testa kludu nav")
