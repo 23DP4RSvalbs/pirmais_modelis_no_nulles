@@ -30,3 +30,8 @@ print("Pingvinu sugu modelis")
 print(f"apmācībai: {len(x_tr)} testam: {len(x_te)}")
 print(f"modelis: {precizitate:.2%} ({sum(prognozes == y_te)}/{len(y_te)})")
 print(f"vienmer {biezaka}: {bazes_precizitate:.2%} ({sum(y_te == biezaka)}/{len(y_te)})")
+
+svarigums = sorted(zip(merijumi, modelis.feature_importances_), key=lambda a: a[1], reverse=True)
+print("Svarigākie merijumi:")
+for kolonna, vertiba in svarigums[:2]:
+    print(f"{kolonna}: {vertiba:.1%}")
