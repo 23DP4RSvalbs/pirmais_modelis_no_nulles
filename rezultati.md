@@ -25,3 +25,11 @@ Lēmumu kokam visvairāk palīdzēja pleznas garums (`flipper_length_mm`) 55,5% 
 Kļūda bija sākotnējā CSV **300. rindā**, patiesībā tas ir **Chinstrap**, bet modelis atbildēja **Adelie**. šis pingvīns bija no Dream salas, knābis 43,2 mm garš un 16,6 mm dziļš, plezna 187 mm un svars 2900 g. Salu es modelī neizmantoju.
 
 Man šķiet koks kļūdījās, jo šī pingvīna izmēri ir līdzīgi Adelie. Viena no robežām kokā ir 43,35 mm knābja garumam, bet šim ir 43,2 mm, tikai nedaudz mazāk, tā kā koks izmanto stingras robežas, ne visi dzīvnieki sadalās perfekti.
+
+## 6. Kur šo neizmantotu
+
+Es šo modeli neizmantotu automātiskai sugu uzskaitei īstā dabas pētījumā bez biologa pārbaudes, tas pazīst tikai trīs sugas un tikai konkrētu datu kopu, ja iedotu citu sugu tas tāpat mēģinātu izvēlēties vienu no šīm trim. šim mācību darbam der, bet kā drošs noteicējs nē.
+
+## Pašvērtējums
+
+Sanāca iztīrīt datus, uztaisīt modeli un salīdzināt ar vienkāršu bāzes variantu, visinteresantāk bija atrast to vienu kļūdu un saprast kāpēc tā radās. Ja turpinātu, gribētu izmēģināt vairākus datu sadalījumus un redzēt vai precizitāte paliek līdzīga.
