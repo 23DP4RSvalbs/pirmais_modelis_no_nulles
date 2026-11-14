@@ -18,4 +18,4 @@ Ja Windows `python` nestrādā, var pamēģināt `py`.
 
 Modelim ir tikai 4 mērījumi: knābja garums un dziļums, pleznas garums un svars. Dzimumu, salu un gadu neņēmu, jo gribēju redzēt vai pietiek ar šiem izmēriem. `avota_rinda` ir tikai lai vēlāk varētu atrast kļūdu sākotnējā CSV.
 
-Rezultātu un kļūdas piemēru aprakstīju [rezultati.md], datu saite un licence ir [dati/AVOTS.txt], izmantoju `pandas` un `scikit-learn`
+Rezultātu un kļūdas piemēru aprakstīju rezultati.md, datu saite un licence ir dati/AVOTS.txt, izmantoju `pandas` un `scikit-learn`
