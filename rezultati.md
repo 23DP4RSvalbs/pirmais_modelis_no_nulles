@@ -32,4 +32,4 @@ Es šo modeli neizmantotu automātiskai sugu uzskaitei īstā dabas pētījumā 
 
 ## Pašvērtējums
 
-Sanāca iztīrīt datus, uztaisīt modeli un salīdzināt ar vienkāršu bāzes variantu, visinteresantāk bija atrast to vienu kļūdu un saprast kāpēc tā radās. Ja turpinātu, gribētu izmēģināt vairākus datu sadalījumus un redzēt vai precizitāte paliek līdzīga.
+Sanāca iztīrīt datus, uztaisīt modeli un salīdzināt ar vienkāršu bāzes variantu, visinteresantāk bija atrast to vienu kļūdu un saprast kāpēc tā radās. Neizdevās pārliecināties, vai 98,84% nav nejaušs rezultāts, jo modeli pārbaudīju tikai vienu reizi. Ja turpinātu, gribētu izmēģināt vairākus datu sadalījumus un redzēt vai precizitāte paliek līdzīga.
