@@ -7,7 +7,7 @@
 Vajag Python 3.10+ un instalētas bibliotēkas, projekta folderi palaist šīs komandas:
 
 ```bash
-python -m pip install -r requirements.txt
+python -m pip install pandas scikit-learn
 python 01_tirisana.py
 python 02_modelis.py
 ```
